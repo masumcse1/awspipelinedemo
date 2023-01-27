@@ -1,3 +1,3 @@
 #!/bin/bash
-sudo chmod +x /opt/tomcat/bin/./shutdown.sh
-sudo /opt/tomcat/bin/./shutdown.sh
+chmod +x /home/ec2-user/apache-tomcat-9.0.71/bin/./shutdown.sh
+  /home/ec2-user/apache-tomcat-9.0.71/bin/./shutdown.sh
