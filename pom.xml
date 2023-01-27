@@ -22,4 +22,20 @@
 		</dependency>
 
 	</dependencies>
+	
+	
+	<build>
+		<finalName>awspipelinedemo</finalName>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version>
+			</plugin>
+			<plugin>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>3.2.3</version>
+			</plugin>
+		</plugins>
+	</build>
+	
 </project>
