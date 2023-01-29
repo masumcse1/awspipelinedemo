@@ -7,7 +7,8 @@ files:
   - source: /TestXMLFile.xml
     destination: /opt/tomcat/webapps/
     
-file_exists_behavior: OVERWRITE    
+file_exists_behavior: OVERWRITE   
+
           
 hooks:
   AfterInstall:
