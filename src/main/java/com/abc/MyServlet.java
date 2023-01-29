@@ -19,6 +19,7 @@ public class MyServlet extends HttpServlet {
 		response.setContentType("text/html");
 		PrintWriter writer = response.getWriter();
 		writer.println("<h1>Hello World Servlet on AWS Pipeline Masum</h1>");
+		writer.println("<h1>My pipeline --maven</h1>");
 		writer.close();
 
 	}
